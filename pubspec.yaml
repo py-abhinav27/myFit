@@ -1,0 +1,50 @@
+name: fitness_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '2.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+  
+    - lib/assets/images/unnamed.png
+    - lib/assets/images/eaten.png
+    - lib/assets/images/burned.png
+    - lib/assets/images/dinner.png
+    - lib/assets/images/lunch.png
+    - lib/assets/images/snack.png
+    - lib/assets/images/breakfast.png
+    - lib/assets/images/bell.png
+    - lib/assets/images/bottle.png
+    - lib/assets/images/glass.png
+    - lib/assets/images/back.png
+    - lib/assets/images/runner.png
+    - lib/assets/images/area1.png
+    - lib/assets/images/area2.png
+    - lib/assets/images/area3.png
+
+    - lib/assets/images/tab_1.png
+    - lib/assets/images/tab_1s.png
+    - lib/assets/images/tab_2.png
+    - lib/assets/images/tab_2s.png
+    - lib/assets/images/tab_3.png
+    - lib/assets/images/tab_3s.png
+    - lib/assets/images/tab_4.png
+    - lib/assets/images/tab_4s.png
